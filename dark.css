@@ -1,0 +1,61 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  color: white;
+  font-family: Popping;
+}
+#circle-logo {
+  border-radius: 180px;
+  background-color: whitesmoke;
+  padding: 12px;
+}
+
+#circle-logo:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+#div-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+#left-head img {
+  height: 192px;
+  width: 192px;
+  border-radius: 180px;
+  border-color: yellow;
+}
+.icon-head {
+  gap: 20px;
+}
+#rigth-head h2 {
+  font-size: 46px;
+}
+#rigth-head p {
+  font-size: 22px;
+}
+
+#text-div {
+  width: 640px;
+  height: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.text-class {
+  margin: auto;
+  width: 100px;
+}
+
+.text-class p {
+  margin: 3px;
+  font-size: 24px;
+}
