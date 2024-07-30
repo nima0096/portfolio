@@ -82,3 +82,39 @@ body {
   font-size: 22px;
   border-radius: 8px;
 }
+#big-div {
+  width: 760px;
+  height: 110px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#big-div-left {
+  width: 351px;
+  height: 80px;
+  background-color: #fbd144;
+  font-size: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#big-div-rigth {
+  width: 351px;
+  height: 80px;
+  background-color: red;
+  font-size: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 620px) {
+  body {
+    background-color: aquamarine;
+  }
+}
