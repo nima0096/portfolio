@@ -1,5 +1,5 @@
 body {
-  background-color: #e7e7e7;
+  background-color: rgb(250, 199, 208);
   flex-direction: column;
   align-items: center;
   gap: 60px;
@@ -63,8 +63,7 @@ body {
   margin: 3px;
   font-size: 24px;
 }
-#button-div {
-}
+
 #button-left {
   width: 290px;
   height: 80px;
@@ -116,21 +115,19 @@ body {
 }
 #img-div-big {
   width: 750px;
-  height: 820px;
-  background-color: #e7e7e7;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .img-div {
-  width: 360px;
+  width: 49%;
   height: 220px;
+  margin-bottom: 12px;
   gap: 20px;
 }
-@media (max-width: 620px) {
+@media (max-width: 480px) {
   body {
-    background-color: aquamarine;
+    background-color: #e7e7e7;
     gap: 30px;
   }
   #circle-logo {
@@ -160,5 +157,25 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
+  }
+  #img-div-big {
+    width: 400px;
+  }
+  .img-div {
+    width: 100%;
+  }
+  #big-div {
+    width: 375px;
+    height: 85px;
+  }
+  #text-div {
+    width: 375px;
+    height: 100px;
+  }
+  #button-div {
+    display: flex;
+    text-align: center;
+    width: 375px;
+    height: 70px;
   }
 }
