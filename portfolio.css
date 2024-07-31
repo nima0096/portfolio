@@ -73,6 +73,7 @@ body {
   font-size: 22px;
   border-radius: 8px;
   margin-right: 30px;
+  background-color: #fbd144;
 }
 #button-rigth {
   width: 290px;
@@ -95,26 +96,69 @@ body {
 #big-div-left {
   width: 351px;
   height: 80px;
-  background-color: #fbd144;
+  background-color: #d7d7d7;
   font-size: 22px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  border-radius: 8px;
 }
 #big-div-rigth {
   width: 351px;
   height: 80px;
-  background-color: red;
+  background-color: white;
   font-size: 22px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-
+#img-div-big {
+  width: 750px;
+  height: 820px;
+  background-color: #e7e7e7;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.img-div {
+  width: 360px;
+  height: 220px;
+  gap: 20px;
+}
 @media (max-width: 620px) {
   body {
     background-color: aquamarine;
+    gap: 30px;
+  }
+  #circle-logo {
+    width: 48px;
+    height: 48px;
+  }
+
+  #circle-logo svg {
+    width: 24px;
+    height: 24px;
+  }
+  #rigth-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #left-head img {
+    width: 124px;
+    height: 124px;
+  }
+  #rigth-head h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .text-class p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
   }
 }
