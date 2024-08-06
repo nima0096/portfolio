@@ -48,12 +48,11 @@ body {
 #button-left {
   width: 290px;
   height: 80px;
-  background-color: #fbd144;
   border: none;
   font-size: 22px;
   border-radius: 8px;
   margin-right: 30px;
-  background-color: #fbd144;
+  background-color: rgb(85, 119, 206);
 }
 #button-rigth {
   width: 290px;
