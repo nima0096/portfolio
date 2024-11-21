@@ -117,12 +117,18 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 10px;
 }
+
 .img-div {
   width: 49%;
   height: 220px;
   margin-bottom: 12px;
   gap: 20px;
+}
+.img-div img {
+  width: 100%;
+  border-radius: 12px;
 }
 @media (max-width: 480px) {
   body {
